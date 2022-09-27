@@ -1,4 +1,4 @@
-# cod384ad4868d1002f4b6164f
+# Password Generator
 
 ## About Scrimba
 
