@@ -1,16 +1,23 @@
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-        <link rel="stylesheet" href="index.css">
-    </head>
-    <body>
-        <h1>Generate a <span>random password</span></h1>
-        <h3>Never use an insecured password again</h3>
-        <button id="genPassword">Generate passwords</button>
-        <br />
-        <br />
-        <br />
-        <div id="password1"></div>
-        <div id="password2"></div>
-        <script src="index.js"></script>
-    </body>
+  <head>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Generate a <span>random password</span></h1>
+      <h3>Never use an insecured password again</h3>
+      <button id="genPassword">Generate passwords</button>
+      <input type="number" id="inputValue" min="8" max="25" placeholder="change password length" class="change-password-length" >
+      </div>
+      <div id="passwords">
+        <div id="password1">password 1</div>
+        <div id="password2">Password 2</div>
+      </div>
+    </main>
+    <script src="index.js"></script>
+  </body>
 </html>
